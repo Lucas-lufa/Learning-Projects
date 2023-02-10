@@ -1,0 +1,28 @@
+/* session two style sheet Lucas*/
+
+/* reference elements in three different ways
+targeting the elemant
+targetiong by class
+targering by id
+*/
+
+nav {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,105);
+
+}
+
+a {
+    color: rgb(0,255,255);
+}
+
+/* all anchors inside a nav tag will be red*/
+nav a {
+    color: rgb(255,0,0);
+}
+
+/* the spesific greater proioty
+ a anchor in side a li inside a unorded list inside a nav tag*/
+nav ul li a {
+    color: rgb(0,255,0);
+}
