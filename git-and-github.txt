@@ -1,0 +1,51 @@
+git and github
+
+git clone
+https://www.w3schools.com/git/git_clone.asp?remote=github
+
+A clone is a full copy of a repository, including all logging and versions of files. Git can clone from github so there is a local copy to work from. 
+
+I will clone the web developer github repository that Andy made for the class. Then make a fork of that repostory on my github account. That will enable me to push any changes from my git to the fork on github. From that fork I can make a pull requset to Andy's repostory, the upstream.
+
+git clone https://github.com/AdyGCode/C4-23-S1-WT-Learning.git
+
+I have made a fork of Andy's reposorty on my github account https://github.com/Lucas-lufa
+at https://github.com/Lucas-lufa/C4-23-S1-WT-Learning/tree/main and the git repository's url( think uniform resource locator is the correct term) https://github.com/Lucas-lufa/C4-23-S1-WT-Learning.git
+
+Configuring remotes
+The full copy of the repository we have can not make changes to the orginal on github.
+
+to see how the remotes of this git is set up:
+$ git remote -v
+origin  https://github.com/AdyGCode/C4-23-S1-WT-Learning.git (fetch)
+origin  https://github.com/AdyGCode/C4-23-S1-WT-Learning.git (push)
+
+we see that orgin is set to AdyGCode reposotory we also want to add my fork.
+
+First we want to rename the original origin remote to upstream.
+$ git remote rename origin upstream
+Renaming remote references: 100% (3/3), done.
+$ git remote -v
+upstream        https://github.com/AdyGCode/C4-23-S1-WT-Learning.git (fetch)
+upstream        https://github.com/AdyGCode/C4-23-S1-WT-Learning.git (push)
+
+use you own url in this case 
+https://github.com/Lucas-lufa/C4-23-S1-WT-Learning.git
+and add that as origin
+$ git remote add origin https://github.com/Lucas-lufa/C4-23-S1-WT-Learning.git
+$ git remote -v
+origin  https://github.com/Lucas-lufa/C4-23-S1-WT-Learning.git (fetch)
+origin  https://github.com/Lucas-lufa/C4-23-S1-WT-Learning.git (push)
+upstream        https://github.com/AdyGCode/C4-23-S1-WT-Learning.git (fetch)
+upstream        https://github.com/AdyGCode/C4-23-S1-WT-Learning.git (push)
+
+According to git naming conventions, it is recommeded to name your own repository origin, and the one you forked for upstream
+
+Now we have two remotes:
+origin - our own fork, where we have read and write access.
+upstream - the original, where we have read-only access.
+
+We 
+
+https://www.w3schools.com/git/git_pull_from_remote.asp?remote=github
+
