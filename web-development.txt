@@ -42,6 +42,16 @@ Talked about diff use for merge confilcts. other things to compaire
 webstorm
 crtl + alt + t wrap content in tags
 
+css resets 
+
+rem root of m  is font size equevelent to root based navigation
+em is basd on a reltive the font si of current 
+
+margins and padding are truble top, right, bottom, left trbl
+
+grid used to position set up areas names and then size them with corosponding sizes in colomns and rows
+
+
 sessionTwo
 
 <div> </div> tag which is a general devider

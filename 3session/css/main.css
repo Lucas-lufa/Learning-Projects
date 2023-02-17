@@ -1,0 +1,41 @@
+/*
+
+*/
+*{
+    font-family: "Lucida Sans", Verdana,sans-serif; /*fall back font*/
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: "Bradley Hand ITC", "Times New Roman",sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    padding: 0.5rem 0; /* 0.5rem 0 0.5rem 0 */
+}
+
+.wrapper{
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'header' 'main' 'article' 'footter';
+    grid-template-columns: 100px 50px minmax(650px, auto) 100px;
+}
+
+#wrapper header #wrapper footer{
+
+}
