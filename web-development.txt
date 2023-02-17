@@ -4,6 +4,44 @@ ide webstorm
 server
 figmar
 
+sessionThree
+
+enable version control.
+two things needed by Adrien 
+readme for how to use and other might need to know
+.gitignore create 
+JetBrains in setting ctrl+s, pluggins, market place, locate the .gitignore and install 
+
+don't want version control
+archived zip etc
+backup
+JetBrains files
+docx
+config files
+to reduce cluttuer so only version control what is important.
+
+If place git .gitignore in root will be globle to the project.
+If placed in a subfolder will be local to that folder.
+
+
+feat is short for feature
+
+renamed master to main with webstorm git gui
+
+Talked about diff use for merge confilcts. other things to compaire
+
+<!-- ul>li{Aside item$}*5 -->
+            <ul>
+                <li>Aside item1</li>
+                <li>Aside item2</li>
+                <li>Aside item3</li>
+                <li>Aside item4</li>
+                <li>Aside item5</li>
+            </ul>
+
+webstorm
+crtl + alt + t wrap content in tags
+
 sessionTwo
 
 <div> </div> tag which is a general devider
