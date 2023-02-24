@@ -11,7 +11,8 @@
  Resets
  *****************/
 
-/** Target all the elements on the page **/*{
+/** Target all the elements on the page **/
+* {
     font-family: "Lucida Sans", Verdana,sans-serif; /*fall back font*/
     font-size: 16px;
     color: #000000;
@@ -29,7 +30,7 @@ body {
 }
 
 /* with comma it list all the style is affecting */
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: "Bradley Hand ITC", "Times New Roman",sans-serif;
     color: #222222;
     color: rgba(134, 134, 134, 0.7);
@@ -37,11 +38,11 @@ h1, h2, h3, h4, h5, h6{
 
 h1 {
     font-size: 3rem; /*root element m*/
-    color: rgb(255, 255, 255, 0.9); /*call rgb but add an alpha number*/
+    color: rgba(255, 255, 255, 255); /*call rgb but add an alpha number*/
     padding: 2rem 0 1rem 0;
 }
 
-h2{
+h2 {
     font-size: 2.25rem;
 }
 
@@ -49,14 +50,14 @@ h3 {
     font-size: 1.75rem;
 }
 
-p{
+p {
     padding: 0.5rem 0; /*same as 0.5rem 0 0.5rem 0 */
 }
 
 /*
 Main Styles
 */
-#wrapper{
+#wrapper {
     max-width: 1000px;
     min-height: 100vh; /*  view height */
     margin: auto; /* make the left/right margins indentical */
@@ -69,7 +70,7 @@ Main Styles
     grid-template-rows: 100px 50px minmax(650px, auto) 100px;
 }
 
-#wrapper header #wrapper footer{
+#wrapper header #wrapper footer {
     background-color: #000000;
 }
 
@@ -82,6 +83,7 @@ header {
     grid-template-areas: "logo" "company" "company" "company";
     grid-template-columns: repeat(4, 1fr);
 }
+
 /* with-out a comma it is will style the element inside an element */
 header img {
     grid-area: logo;
