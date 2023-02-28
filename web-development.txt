@@ -10,6 +10,9 @@ ide webstorm
 server
 figmar
 
+sessionFour
+1920 x 1080 
+
 sessionThree
 
 enable version control.
