@@ -139,4 +139,8 @@ Body
 lorem press tab will auto compete lorem ipsum
 the auto compete also works for tags
 
-bash paste shift+insert
+bash paste shift+insertinsert
+insert
+insert
+
+
