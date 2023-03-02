@@ -117,6 +117,7 @@ meter {
 
  body {
     background-color: #87c7fa;
+    padding: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -158,5 +159,20 @@ p {
  }
 
  #ingredients-right {
+    grid-area: "right";
+ }
+
+ #infobox {
+    display: grid;
+    grid-template-areas: "left" "right";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto ;
+ }
+
+ #infobox-left {
+    grid-area: "left";
+ }
+
+ #infobox-right {
     grid-area: "right";
  }
