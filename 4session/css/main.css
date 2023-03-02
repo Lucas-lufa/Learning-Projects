@@ -111,3 +111,52 @@ meter {
 :where(dialog:modal) {
     all: revert;
 }
+/*****************
+ Basic Page Styles
+ *****************/
+
+ body {
+    background-color: #87c7fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bradley Hand ITC", "Times New Roman", serif;
+    color: #222222;
+    color: rgba(134, 134, 134, 0.7);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255,255,255,0.9);
+    padding: 2rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    padding: 0.5rem 0; /* same as 0.5rem 0 0.5rem 0 */
+}
+/*****************
+ Main Styles
+ *****************/
+
+ #ingredients {
+    display: grid;
+    grid-template-areas: "left" "right";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto ;
+ }
+
+ #ingredients-left {
+    grid-area: "left";
+ }
+
+ #ingredients-right {
+    grid-area: "right";
+ }
