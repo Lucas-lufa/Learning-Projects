@@ -1,0 +1,98 @@
+/*********************************************************************
+    Filename:   session-04/css/main.css
+    Author:     Lucas
+    Version:    1.1
+    Purpose:    Session 03 Main Style Sheet
+                Demonstrates the use of styles and
+                the css grid.
+ *********************************************************************/
+
+
+/*****************
+ Basic Page Styles
+ *****************/
+
+ body {
+    background-color: white;
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bradley Hand ITC", "Times New Roman", serif;
+    color: #222222;
+    color: rgba(134, 134, 134, 0.7);
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+suggestion {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px;
+    border-style: solid;
+}
+
+p {
+    padding: 0.5rem 0; /* same as 0.5rem 0 0.5rem 0 */
+}
+/*****************
+ Main Styles
+ *****************/
+
+.ingredients {
+    margin: 5px;
+}
+
+ #ingredients {
+    display: grid;
+    grid-template-areas: "left" "right";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto ;
+ }
+
+ #ingredients-left {
+    grid-area: "left";
+ }
+
+ #ingredients-right {
+    grid-area: "right";
+ }
+
+ #infobox {
+    display: grid;
+    grid-template-areas: "left" "right";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto ;
+ }
+
+ #infobox-left {
+     background: black;
+     color: white;
+     grid-area: "left";
+ }
+
+ #infobox-right {
+    grid-area: "right";
+ }
+
+ footer h3 {
+     color: red;
+ }
