@@ -69,22 +69,22 @@ p {
 
  #ingredients {
     display: grid;
-    grid-template-areas: "left" "right";
+    grid-template-areas: "left right";
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto auto ;
  }
 
  #ingredients-left {
-    grid-area: "left";
+    grid-area: left;
  }
 
  #ingredients-right {
-    grid-area: "right";
+    grid-area: right;
  }
 
  #infobox {
     display: grid;
-    grid-template-areas: "left" "right";
+    grid-template-areas: "left right";
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto auto ;
  }
@@ -92,11 +92,11 @@ p {
  #infobox-left {
      background: black;
      color: white;
-     grid-area: "left";
+     grid-area: right;
  }
 
  #infobox-right {
-    grid-area: "right";
+    grid-area: left;
  }
 
  footer h3 {

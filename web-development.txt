@@ -1,3 +1,5 @@
+
+
 question
 call rgb but add an alpha number
 css 
@@ -9,6 +11,11 @@ browser
 ide webstorm
 server
 figmar
+
+sessionSix
+
+to make a alt text as you would for an image for an icon
+Put the describing text in a span tag and then target with css to hide when displayed
 
 sessionFour
 1920 x 1080 
